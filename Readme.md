@@ -28,7 +28,7 @@ Response:
     	}]
     }
  
-Follow the link "create_watermark" to create a new watermark:
+Follow the link "watermark_ticket" to create a new watermark ticket:
 
     curl -XPOST http://localhost:8080/watermark_tickets/1
 
@@ -60,7 +60,7 @@ Response:
     	}]
     }
 
-Now get back to the document using the "document" link and the "watermark" property should be present (and the watermark ticket link has been removed):
+Now get back to the document using the "document" link and the "watermark" property should be present (and the watermark_ticket link has been removed):
 
     {
     	"id": "1",
